@@ -1,0 +1,29 @@
+{
+  "name": "matrix-to-png-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "tsc && node --experimental-modules build/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gettmure/matrix-to-png-ts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gettmure/matrix-to-png-ts/issues"
+  },
+  "homepage": "https://github.com/gettmure/matrix-to-png-ts#readme",
+  "dependencies": {
+    "@types/pngjs": "^3.4.2",
+    "fs": "0.0.1-security",
+    "pngjs": "^5.0.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.23"
+  }
+}
